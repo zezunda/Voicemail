@@ -12,6 +12,7 @@ def main(voicemails):
     blast_dict = get_blast_msgs(file_list)
     remove_files(blast_dict, file_list, voicemails)
 
+
 def get_files():
     file_list = []
     for roots, dirs, files in os.walk(PATH):
